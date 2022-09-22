@@ -1,0 +1,10 @@
+.products-table{
+  background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px black;
+  }

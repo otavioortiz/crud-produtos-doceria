@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "name": "Suflê de morango",
+      "manufacture": "2022-09-20T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-09-25T03:00:00.000Z",
+      "price": 7.9,
+      "id": 1
+    },
+    {
+      "name": "Torta de doce de leite",
+      "manufacture": "2022-08-10T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-08-12T03:00:00.000Z",
+      "price": 11.2,
+      "id": 2
+    },
+    {
+      "name": "Nega maluca",
+      "manufacture": "2022-09-09T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-09-11T03:00:00.000Z",
+      "price": 9.9,
+      "id": 3
+    },
+    {
+      "name": "Pudim",
+      "manufacture": "2022-06-15T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-06-16T03:00:00.000Z",
+      "price": 14.25,
+      "id": 4
+    },
+    {
+      "name": "Brigadeiro",
+      "manufacture": "2022-10-07T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-10-19T03:00:00.000Z",
+      "price": 2.9,
+      "id": 5
+    },
+    {
+      "name": "Beijinho de coco",
+      "manufacture": "2022-09-15T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-09-20T03:00:00.000Z",
+      "price": 2.9,
+      "id": 6
+    },
+    {
+      "name": "Torta de pessêgo",
+      "manufacture": "2022-09-08T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-10-05T03:00:00.000Z",
+      "price": 7.9,
+      "id": 7
+    },
+    {
+      "name": "Bala de goma",
+      "manufacture": "2021-11-04T03:00:00.000Z",
+      "perishable": false,
+      "validity": null,
+      "price": 5.6,
+      "id": 8
+    },
+    {
+      "name": "Forma para pudim",
+      "manufacture": "2020-06-12T03:00:00.000Z",
+      "perishable": false,
+      "validity": null,
+      "price": 60,
+      "id": 9
+    },
+    {
+      "name": "Forma para torta",
+      "manufacture": "2010-07-22T19:11:01.000Z",
+      "perishable": false,
+      "validity": null,
+      "price": 55.48,
+      "id": 10
+    },
+    {
+      "name": "Forma para cupcake",
+      "manufacture": "2022-05-11T03:00:00.000Z",
+      "perishable": false,
+      "validity": null,
+      "price": 35.7,
+      "id": 11
+    },
+    {
+      "name": "Cupcake de morango",
+      "manufacture": "2022-09-02T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-09-05T03:00:00.000Z",
+      "price": 6.9,
+      "id": 12
+    },
+    {
+      "name": "Pavê de ganache",
+      "manufacture": "2022-09-12T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-09-13T03:00:00.000Z",
+      "price": 8.5,
+      "id": 13
+    },
+    {
+      "name": "Rocambole de chocolate com creme branco",
+      "manufacture": "2022-09-09T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-09-23T03:00:00.000Z",
+      "price": 15.8,
+      "id": 14
+    },
+    {
+      "name": "Cupcake de chocolate branco com nozes",
+      "manufacture": "2022-09-19T03:00:00.000Z",
+      "perishable": true,
+      "validity": "2022-09-23T03:00:00.000Z",
+      "price": 7.99,
+      "id": 15
+    }
+  ]
+}
