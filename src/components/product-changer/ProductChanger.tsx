@@ -52,9 +52,9 @@ function ProductChanger(props:any) {
     name = formValues.productName;
     manufacture = formValues.manufacture;
     perishable = formValues.perishable;
-    if(!perishable)
-      validity = null;
-    else
+    validity = null;
+    
+    if(perishable)
       validity = formValues.validity;
     
     price = formValues.price;

@@ -2,6 +2,7 @@ import { Product } from "../model/product";
 import { updateAddProduct, updateEditProduct, updateProducts, updateRemoveProduct } from "../redux/productSlice";
 import { store } from "../redux/store";
 
+const LOCAL_API_URL = "http://localhost:3001/";
 
 function getToken(){
   const token = localStorage.getItem('token');
@@ -9,7 +10,7 @@ function getToken(){
 }
 
 export async function loadProducts(){
-    fetch("http://localhost:3001/products").then(res => res.json()).then(result => {
+    fetch(LOCAL_API_URL + "products").then(res => res.json()).then(result => {
         store.dispatch(updateProducts(result));
       }
     );
@@ -21,7 +22,7 @@ export async function addNewProduct(product:Product){
 
   
 
-  fetch("http://localhost:3001/products", {
+  fetch(LOCAL_API_URL + "products", {
     method:"POST",
     headers: {
       'Content-type': 'application/json',
@@ -35,7 +36,7 @@ export async function addNewProduct(product:Product){
 }
 
 export async function editProduct(product:Product){
-  fetch("http://localhost:3001/products/" + product.id, {
+  fetch(LOCAL_API_URL + "products/" + product.id, {
     method:"PUT",
     headers: {
       'Content-type': 'application/json',

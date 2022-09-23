@@ -52,9 +52,9 @@ export default function ProductsTable() {
       headerName: 'Validade',
       width: 120,
       valueGetter: (params: GridValueGetterParams) => {
-        if(params.row.manufacture){
-          const manufactureDate = new Date(params.row.manufacture);
-          return manufactureDate.toLocaleDateString();
+        if(params.row.validity){
+          const validityDate = new Date(params.row.validity);
+          return validityDate.toLocaleDateString();
         }
       }, 
     },
